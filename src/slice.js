@@ -1,0 +1,7 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', {value: true});
+exports.getFirstThreeCharacters = void 0;
+const getFirstThreeCharacters = function (string) {
+  return string.slice(0, 3);
+};
+exports.getFirstThreeCharacters = getFirstThreeCharacters;

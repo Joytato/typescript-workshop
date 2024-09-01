@@ -1,4 +1,7 @@
 import {getSquares} from './map';
+import {getLongWords} from './filter';
+import {printFruits} from './foreach';
+import {getFirstThreeCharacters} from './slice';
 
 console.log('Try npm run lint/fix!');
 
@@ -32,8 +35,51 @@ export function doSomeStuff(
   console.log(longString, trailing, why, iWish, vizzini, re);
   return;
 }
-// TODO: more examples
 
-const numbers = [2, 4, 6, 8];
+// Array of words filtered to find words with more than 5 letters
+const words = [
+  'Bleak',
+  'Prick',
+  'Fiddle',
+  'Diamond',
+  'Green',
+  'Shine',
+  'Aluminium',
+  'Wool',
+  'Luxury',
+  'Luscious',
+];
+console.log(getLongWords(words));
 
-console.log(getSquares(numbers));
+// Array of fruits displayed using forEach
+const fruits = [
+  'Banana',
+  'strawberry',
+  'grape',
+  'apple',
+  'orange',
+  'watermelon',
+  'blueberry',
+  'lemon',
+  'peach',
+  'avocado',
+  'pineapple',
+  'cherry',
+  'cantaloupe',
+  'raspberry',
+  'pear',
+  'lime',
+  'blackberry',
+  'clementine',
+  'mango',
+  'plum',
+];
+printFruits(fruits);
+
+// Array of numbers sqaured using map
+const numberArray = [1, 2, 3, 4, 5];
+console.log(getSquares(numberArray));
+
+// String sliced to extract first 3 characters
+const str = 'Potato corner is the best!';
+console.log(getFirstThreeCharacters(str));
