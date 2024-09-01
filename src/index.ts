@@ -1,4 +1,4 @@
-import {sqaureNumber} from "./map";
+import {getSquares} from './map';
 
 console.log('Try npm run lint/fix!');
 
@@ -34,6 +34,6 @@ export function doSomeStuff(
 }
 // TODO: more examples
 
-const numbers = [2,4,6,8];
+const numbers = [2, 4, 6, 8];
 
-console.log(sqaureNumber(numbers));
+console.log(getSquares(numbers));

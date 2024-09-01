@@ -1,4 +1,3 @@
-export const sqaureNumber = (numbers: number[]): number[] => {
-    const squaredNumbers = numbers.map(number => number * number);
-    return squaredNumbers;
-}
+export const getSquares = (numbers: number[]): number[] => {
+  return numbers.map(number => number * number);
+};

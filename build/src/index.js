@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.doSomeStuff = doSomeStuff;
+const map_1 = require("./map");
 console.log('Try npm run lint/fix!');
 const longString = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut aliquet diam.';
 const trailing = 'Semicolon';
@@ -22,5 +23,5 @@ function doSomeStuff(withThis, andThat, andThose) {
 }
 // TODO: more examples
 const numbers = [2, 4, 6, 8];
-console.log(sqaureNumber(numbers));
+console.log((0, map_1.getSquares)(numbers));
 //# sourceMappingURL=index.js.map

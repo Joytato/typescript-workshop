@@ -1,1 +1,1 @@
-declare const sqaureNumber: (numbers: number[]) => number[];
+export declare const getSquares: (numbers: number[]) => number[];
