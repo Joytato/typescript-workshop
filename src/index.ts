@@ -37,7 +37,7 @@ export function doSomeStuff(
 }
 
 // Array of words filtered to find words with more than 5 letters
-const words = [
+const words: string[] = [
   'Bleak',
   'Prick',
   'Fiddle',
@@ -52,7 +52,7 @@ const words = [
 console.log(getLongWords(words));
 
 // Array of fruits displayed using forEach
-const fruits = [
+const fruits: string[] = [
   'Banana',
   'strawberry',
   'grape',
@@ -77,7 +77,7 @@ const fruits = [
 printFruits(fruits);
 
 // Array of numbers sqaured using map
-const numberArray = [1, 2, 3, 4, 5];
+const numberArray: number[] = [1, 2, 3, 4, 5];
 console.log(getSquares(numberArray));
 
 // String sliced to extract first 3 characters
